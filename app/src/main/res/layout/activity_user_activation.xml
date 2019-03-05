@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp"
+    android:background="@drawable/custom_button"
+    android:layout_gravity="center"
+    android:orientation="vertical"
+    tools:context=".UserActivation">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/user_activation_private_key"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:hint="email"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:id="@+id/user_activation_submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_margin="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/card_gradient"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

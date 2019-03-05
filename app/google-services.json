@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "659109959971",
+    "firebase_url": "https://restroview.firebaseio.com",
+    "project_id": "restroview",
+    "storage_bucket": "restroview.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:659109959971:android:75d9e201828849b7",
+        "android_client_info": {
+          "package_name": "com.dawn.restroview"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "659109959971-qpbq4asn45398jnojjod5iigj3k7npmf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dawn.restroview",
+            "certificate_hash": "eb6086ec7b81d1adb7b6a929414e75d532629db9"
+          }
+        },
+        {
+          "client_id": "659109959971-6q971aoe5ekb7ml83gfjjdkpvt0cb0rf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHT_TyMANz4_WoRb3AgYfe72BD4Q-nZ3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "659109959971-6q971aoe5ekb7ml83gfjjdkpvt0cb0rf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
